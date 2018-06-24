@@ -1,2 +1,2 @@
 # Blair_Quizbowl
-Blair Its Academic website
+Website for the Blair Its Academic Team.
