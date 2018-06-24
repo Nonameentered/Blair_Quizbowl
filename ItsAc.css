@@ -1,0 +1,60 @@
+p, li, td{
+font-family: Arial, serif;
+font-size: 9pt;
+color: #B4C0D6;
+vertical-align: middle;
+/*text-align: justify;*/
+}
+
+H1{
+font-family: Footlight MT Light, Garamond, serif;
+font-size: 10pt;
+color: #FFFFFF;
+vertical-align: top;
+text-align: left;
+letter-spacing: 0.2em;
+}
+
+a{
+font-family: Footlight MT Light, Garamond, Palatino, serif;
+color: #FFFFFF;
+/*text-align: justify;*/
+text-decoration: none;
+font-size: 10pt;
+/*filter:alpha(opacity=100, finishopacity=60, style=2);*/
+height:0;
+}
+
+a:hover{
+text-decoration: none;
+color: #AFAAA6;
+}
+
+a:visited{
+text-decoration: none;
+color: #747C8F;
+}
+
+a.big{
+font-size: 15pt;
+}
+
+body{
+background-color: #0F2D51;
+background-repeat: no-repeat;
+
+scrollbar-base-color: #0F2D51;
+scrollbar-3dlight-color: #0F2D51;
+scrollbar-arrow-color: #747C8F;
+scrollbar-darkshadow-color: #0F2D51;
+scrollbar-face-color: #0F2D51;
+scrollbar-highlight-color: #0F2D51;
+scrollbar-shadow-color: #0F2D51;
+scrollbar-track-color: #0F2D51;
+}
+
+.login input
+{
+background: #B4C0D6;
+color: #0F2D51;
+}
