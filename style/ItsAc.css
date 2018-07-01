@@ -1,0 +1,60 @@
+p, li, td{
+    font-size:1em;
+    vertical-align: middle;
+    /*text-align: justify;*/
+}
+
+h1{
+    font-size: 10pt;
+    color: #505561;
+    vertical-align: top;
+    text-align: left;
+    font-size:2em;
+}
+
+a{
+    color: #188fff;
+    /*filter:alpha(opacity=100, finishopacity=60, style=2);*/
+    cursor: pointer;
+    border-bottom: 1px dotted #b1b7c5;
+    transition: 0.1s all;
+}
+
+a:hover{
+    color: #505561;
+    border-bottom-style: solid;
+}
+
+a:visited{
+    color: #505561;
+}
+
+body{
+/*Let's make this look nice*/
+background-repeat: no-repeat;
+background-color: #f1f1f1;
+font-family:"Noto Sans","Lucida Grande","Lucida Sans","Segoe UI",sans-serif;
+font-weight:normal;
+line-height:1.6;
+color:#505561;
+text-rendering: optimizeLegibility;
+margin-bottom: 1.25rem;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+
+/*Scrollbar Stuff*/
+scrollbar-base-color: #0F2D51;
+scrollbar-3dlight-color: #0F2D51;
+scrollbar-arrow-color: #747C8F;
+scrollbar-darkshadow-color: #0F2D51;
+scrollbar-face-color: #0F2D51;
+scrollbar-highlight-color: #0F2D51;
+scrollbar-shadow-color: #0F2D51;
+scrollbar-track-color: #0F2D51;
+}
+
+.login input
+{
+background: #B4C0D6;
+color: #0F2D51;
+}
