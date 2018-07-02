@@ -1,4 +1,4 @@
 </div>
-</BODY>
-</HTML>
+</body>
+</html>
 
