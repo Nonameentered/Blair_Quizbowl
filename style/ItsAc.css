@@ -5,13 +5,43 @@ p, li, td{
 }
 
 h1{
-    font-size: 10pt;
     color: #505561;
     vertical-align: top;
     text-align: left;
     font-size:2em;
 }
+div{
+    display: block;
+}
+header{
+    padding top: 15px;
+    height: 50 px;
+    overflow: hidden;
+}
 
+.blairHeader{
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    margin: auto;
+    margin-top: 20px;
+    line-height:1;
+    color: #333;
+    font-size: 30px;
+    border-bottom: hidden;
+    transition: none;
+    text-decoration: none;
+    border-bottom-style: none;
+}
+.blairHeader:hover{
+    border-bottom-style: none;
+}
+
+main{
+    margin: 2em 5em 5em 5em;
+}
 a{
     color: #188fff;
     /*filter:alpha(opacity=100, finishopacity=60, style=2);*/
@@ -38,7 +68,7 @@ font-weight:normal;
 line-height:1.6;
 color:#505561;
 text-rendering: optimizeLegibility;
-margin-bottom: 1.25rem;
+
 -webkit-font-smoothing:antialiased;
 -moz-osx-font-smoothing:grayscale;
 
