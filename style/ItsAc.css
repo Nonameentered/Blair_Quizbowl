@@ -31,7 +31,7 @@ body{
     scrollbar-track-color: #0F2D51;
 }
 
-p{
+p.body-text{
     text-indent: 2em;
 }
 p, li, td{
@@ -102,6 +102,10 @@ a.bar-item:hover:not(.active){
 
 main{
     margin: 2em 3em 2em 3em;
+}
+
+footer{
+    margin: 0em 3em 2em 3em;
 }
 
 a{
