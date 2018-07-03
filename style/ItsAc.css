@@ -1,7 +1,42 @@
+/*Blue Accent color - #188fff
+Red Accent color - #C00000
+*/
+html{
+    padding:0;
+    margin:0;
+}
+body{
+    /*Let's make this look nice*/
+    padding:0;
+    margin:0;
+    background-repeat: no-repeat;
+    background-color: #f1f1f1;
+    font-family:"Noto Sans","Lucida Grande","Lucida Sans","Segoe UI",sans-serif;
+    font-weight:normal;
+    line-height:1.6;
+    color:#505561;
+    text-rendering: optimizeLegibility;
+
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+
+    /*Scrollbar Stuff*/
+    scrollbar-base-color: #0F2D51;
+    scrollbar-3dlight-color: #0F2D51;
+    scrollbar-arrow-color: #747C8F;
+    scrollbar-darkshadow-color: #0F2D51;
+    scrollbar-face-color: #0F2D51;
+    scrollbar-highlight-color: #0F2D51;
+    scrollbar-shadow-color: #0F2D51;
+    scrollbar-track-color: #0F2D51;
+}
+
+p{
+    text-indent: 2em;
+}
 p, li, td{
     font-size:1em;
     vertical-align: middle;
-    /*text-align: justify;*/
 }
 
 h1{
@@ -13,75 +48,84 @@ h1{
 div{
     display: block;
 }
+
 header{
-    padding top: 15px;
-    height: 50 px;
+    position: relative;
+    height: 70px;
     overflow: hidden;
 }
 
-.blairHeader{
+.blair-header{
     position: relative;
     display: block;
     text-align: center;
-    width: 100%;
-    top: 0;
-    margin: auto;
-    margin-top: 20px;
+    height: auto;
+    padding: 20px 0px 5px 0px;
     line-height:1;
     color: #333;
     font-size: 30px;
     border-bottom: hidden;
-    transition: none;
     text-decoration: none;
+}
+.blair-header:hover{
     border-bottom-style: none;
 }
-.blairHeader:hover{
-    border-bottom-style: none;
+
+nav{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    overflow: auto;
+    height:37px;
+    margin: 0px;
+    background-color: #6e6e6e;
+    /*adds shadow to bar box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);*/
+}
+
+a.bar-item {
+    padding:6px 10px;
+    margin:0;
+	float: left;
+    display: block;
+    text-align: center;
+    color: #f1f1f1;
+    border-right: 1px solid #bbb;
+}
+a.bar-item:hover:not(.active){
+    background-color: #333;
+    color: #f1f1f1;
+}
+.active{
+    background-color: #DA0016;
 }
 
 main{
-    margin: 2em 5em 5em 5em;
+    margin: 2em 3em 2em 3em;
 }
+
 a{
-    color: #188fff;
-    /*filter:alpha(opacity=100, finishopacity=60, style=2);*/
-    cursor: pointer;
+    cursor: pointer; 
+    text-decoration: none;
+}
+a.text:hover, a.blair-header:hover{
+    color: #505561;
+    
+}
+
+a.text{
+    color: #DA0016;
     border-bottom: 1px dotted #b1b7c5;
     transition: 0.1s all;
 }
-
-a:hover{
-    color: #505561;
+a.text:hover{
     border-bottom-style: solid;
 }
-
-a:visited{
+a.text:visited{
     color: #505561;
 }
 
-body{
-/*Let's make this look nice*/
-background-repeat: no-repeat;
-background-color: #f1f1f1;
-font-family:"Noto Sans","Lucida Grande","Lucida Sans","Segoe UI",sans-serif;
-font-weight:normal;
-line-height:1.6;
-color:#505561;
-text-rendering: optimizeLegibility;
 
--webkit-font-smoothing:antialiased;
--moz-osx-font-smoothing:grayscale;
-
-/*Scrollbar Stuff*/
-scrollbar-base-color: #0F2D51;
-scrollbar-3dlight-color: #0F2D51;
-scrollbar-arrow-color: #747C8F;
-scrollbar-darkshadow-color: #0F2D51;
-scrollbar-face-color: #0F2D51;
-scrollbar-highlight-color: #0F2D51;
-scrollbar-shadow-color: #0F2D51;
-scrollbar-track-color: #0F2D51;
-}
 
 .login input
 {
