@@ -140,7 +140,7 @@ color: #0F2D51;
 /* Hahaha nothing bad ever happens to people who copy from w3schools! */
 .column {
     float: left;
-    width: 33.33%;
+    width: 300px;
 }
 
 .row:after {
