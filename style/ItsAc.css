@@ -136,3 +136,15 @@ a.text:visited{
 background: #B4C0D6;
 color: #0F2D51;
 }
+
+/* Hahaha nothing bad ever happens to people who copy from w3schools! */
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
